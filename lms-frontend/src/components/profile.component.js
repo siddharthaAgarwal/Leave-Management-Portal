@@ -118,11 +118,11 @@ export default class Profile extends Component {
             {
               currentUser.designation !== "HOD" && currentUser.designation !== "Admin" ?
                 <div>
-                  {/* <div style={{ width: 150, height: 150, float: 'left', margin: '40px' }}>
+                  <div style={{ width: 150, height: 150, float: 'left', margin: '40px' }}>
                     <CircularProgressbar value={currentUser.sickLeave} maxValue={14} strokeWidth={5} text={currentUser.sickLeave + "/14"} />
                     <br></br>
                     <center><p style={{ fontSize: 22 }}><b>Sick Leave </b></p></center>
-                  </div> */}
+                  </div>
 
                   <div style={{ width: 150, height: 150, float: 'left', margin: '40px' }}>
                     <CircularProgressbar value={currentUser.casualLeave} strokeWidth={5} maxValue={7} text={currentUser.casualLeave + "/7"} />
